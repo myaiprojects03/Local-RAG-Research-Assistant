@@ -1,0 +1,23 @@
+# Environments & Secrets
+.env
+.venv/
+env/
+venv/
+
+# Raw Papers Dataset (PDF files ~1.5GB - not committed to Git)
+Papers/
+/Papers/
+
+# Python Cache & Build Artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.tmp/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
