@@ -1,0 +1,9 @@
+# Runtime dependencies for the Vercel FastAPI backend.
+# Deliberately excludes chromadb / sentence-transformers / torch (>1 GB) so the
+# function stays under Vercel's 250 MB unzipped bundle limit (~160 MB total).
+fastapi==0.165.0
+groq==1.7.0
+numpy==2.5.5
+onnxruntime==1.32.0
+tokenizers==0.23.3
+python-dotenv==1.2.4

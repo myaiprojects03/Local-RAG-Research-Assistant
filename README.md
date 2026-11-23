@@ -46,6 +46,14 @@ Local RAG Research Assistant/
 
 ---
 
+## 🌐 FastAPI Backend for the React Frontend (Vercel)
+
+The [`backend/`](backend/) folder contains a lightweight FastAPI service (`POST /api/chat`) that serves the
+React frontend and deploys to Vercel. It uses the same index, embedding model and retrieval settings as the
+Streamlit app, without ChromaDB or torch. See [backend/README.md](backend/README.md) for local setup and deployment.
+
+---
+
 ## ⚙️ Local Setup Instructions
 
 1. **Clone the Repository**:
