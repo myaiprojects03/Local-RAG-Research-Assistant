@@ -1,0 +1,15 @@
+{
+  "collection": "research_papers",
+  "embedding_model": "BAAI/bge-base-en-v1.5",
+  "chunks": 9797,
+  "source_chunks": 9956,
+  "dropped_near_empty_chunks": 159,
+  "min_chunk_chars": 150,
+  "dimensions": 768,
+  "papers": 318,
+  "domains": {
+    "ai_ml": 5007,
+    "cybersecurity": 4790
+  },
+  "built_at": "2026-11-23T07:02:02+00:00"
+}

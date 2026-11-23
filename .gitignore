@@ -21,3 +21,7 @@ __pycache__/
 .idea/
 .DS_Store
 Thumbs.db
+
+# FastAPI backend local caches
+backend/.model_cache/
+backend/.venv/
